@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS tasks (id UUID PRIMARY KEY, name TEXT, type TEXT, source TEXT, destination TEXT, rules JSONB);
